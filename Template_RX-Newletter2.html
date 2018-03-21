@@ -13,7 +13,7 @@
 
         /* Most mobile clients supports css @media queries so you can define styles for theme here */
 
-        @media only screen and (max-width: 640px) {
+        @media only screen and (max-width: 499px) {
             .container {
                 width: 100% !important;
                 max-width: 100% !important;
@@ -23,11 +23,14 @@
                 margin-right: 0 !important;
                 width: 100% !important;
             }
+            .center {
+                text-align: center !important;
+            }
         }
 
         /* Override the .container width for email clients supporting <style> and @media queries */
 
-        @media only screen and (min-width: 641px) {
+        @media only screen and (min-width: 500px) {
             .container {
                 max-width: 600px !important;
             }
@@ -45,89 +48,112 @@
                 <table style="width: 600px; min-width:300px;" align="center"><tr><td>
             <![endif]-->
                 <div style="max-width: 600px; min-width: 300px; margin: 0 auto;">
-                    <table class="container" style="border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <table class="container" style="border-collapse: collapse; background-color: #fff;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
                         <tbody>
                             <tr>
                                 <td>
-                                    <table width="100%" style="border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
+                                    <table width="100%" style="border-collapse: collapse; " cellspacing="0" cellpadding="0" border="0">
                                         <tr>
                                             <td style="background: #fff; text-align: center;" style="border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0" valign="top">
-                                                <img alt="The Script Header Image" src="images/0125_The%20Script%20HTML%20Newsletter_hero.png" style="border: 0px currentColor; border-image: none; width: 100%; height: auto; max-width: 600px; display: block;" width="600">
+                                                <img alt="The Script Header Image" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The%20Script%20HTML%20Newsletter_hero.png" style="border-image: none; width: 100%; height: auto; max-width: 600px; display: block;" width="600">
                                             </td>
                                         </tr>
                                     </table>
 
                                     <!--Email Introduction-->
-                                    <table class="column-1-2" width="100%" align="left" style="border-collapse: collapse; background-color: #fff;" cellspacing="0" cellpadding="0" border="0" valign="top">
+                                    <table class="column-1-2 center" width="25%" height="100px" align="right" style="border-collapse: collapse; background-color: #fff;" cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
                                             <tr>
-                                                <td style="padding: 30px; color: #000;" valign="top">
-                                                    FKC Director of Operations, <em style="color:#0085AD; font-weight: 800; text-decoration: none; font-style: normal;">Nichole Haynes</em>, wrote an article discussing the pharmacy and clinic collaboration and FreseniusRx’s commitment to living our core values.<br>Coming soon!
-                                                </td>
-                                                <td style="padding: 0px 25px 0px 0px;">
-                                                    <img src="images/0125_The-Script-HTML-Newsletter_blue-banner.png" alt="Banner">
+                                                <td style="padding-left: 30px; margin:auto;" valign="top">
+                                                    <img class="center" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The-Script-HTML-Newsletter_blue-banner.png" alt="Record High Penetration 39.5%">
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-
-                                    <!--Company News-->
-                                    <table width="100%" style="border-collapse: collapse; background-color: #fff; padding-top: 50px;" cellspacing="0" cellpadding="0" border="0">
-                                        <tr>
-                                            <td style="border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0" valign="top">
-                                                <br><br>
-                                                <img style="display: block;" width="99%" src="images/Banners/0125_The%20Script%20HTML%20Newsletter_company%20news.png" alt="Company News">
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <table class="column-1-2" width="35%" height="100px" align="left" style="border-collapse: collapse; background-color: #fff;" cellspacing="0" cellpadding="0" border="0">
-                                        <tbody>
-                                            <tr>
-                                                <td style="padding: 10px 30px; 200px 30px;" valign="top">
-                                                    <a href="https://vimeo.com/245069530"><img alt="company video" src="images/0125_The%20Script%20HTML%20Newsletter_company%20news%20video.png"></a>
-                                                    <!-- Below spaces are to prevent text overhang-->
-                                                    <br><br>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <div style="padding-top:10px; padding-right: 30px; padding-bottom: 50px; padding-left: 30px; background: #fff;">
-                                        <div style="padding-bottom: 50px;">
-                                            <h1 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.5;">Medicare Part D Coverage Gap Video</h1>
-                                            Patients often have questions about Medicare Part D drug coverage and costs. To help them better understand possible changes in their financial responsibility, we created a 90 second animated video.
+                                    <div style="padding:30px; color: #000;" valign="top">
+                                        <div>
+                                            FKC Director of Operations, <em style="color:#0085AD; font-weight: 800; text-decoration: none; font-style: normal;">Nichole Haynes</em>, wrote an article discussing the pharmacy and clinic collaboration and FreseniusRx’s commitment to living our core values. Coming soon!
                                         </div>
                                     </div>
 
+                                    <!--Company News-->
+                                    <table width="100%" style="border-collapse: collapse; background-color: #fff; padding-top: 50px; padding-bottom: 50px;" cellspacing="0" cellpadding="0" border="0">
+                                        <table width="100%" style="border-collapse: collapse; background-color: #fff;" cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td style="border-collapse: collapse; padding-bottom: 10px;" cellspacing="0" cellpadding="0" border="0" valign="top">
+                                                    <br><br>
+                                                    <img style="display: block;" width="99%" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/Banners/0125_The%20Script%20HTML%20Newsletter_company%20news.png" alt="Company News">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="column-1-2 " width="35%" height="100px" align="left" style="border-collapse: collapse; background-color: #fff;" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="padding-left: 30px;" valign="top">
+                                                        <a href="https://vimeo.com/245069530"><img alt="company video" src="images/0125_The%20Script%20HTML%20Newsletter_company%20news%20video.png"></a>
+                                                        <!-- Below spaces are to prevent text overhang-->
+                                                        <br><br>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div style="padding-top:0px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px; background: #fff;">
+                                            <div>
+                                                <h1 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.5;">Medicare Part D Coverage Gap Video</h1>
+                                                Patients often have questions about Medicare Part D drug coverage and costs. To help them better understand possible changes in their financial responsibility, we created a 90 second animated video.
+                                            </div>
+                                        </div>
+
+                                        
+                                            <table class="column-1-2" width="35%" height="100px" align="left" style="border-collapse: collapse; background-color: #fff;" cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="padding-left: 30px;" valign="top">
+                                                            <a href="https://vimeo.com/245069530"><img alt="company video" src="images/0125_The%20Script%20HTML%20Newsletter_company%20news%20video.png"></a>
+                                                            <!-- Below spaces are to prevent text overhang-->
+                                                            <br><br>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div style="padding-top:0px; padding-right: 30px; padding-bottom: 50px; padding-left: 30px; background: #fff;">
+                                                <div>
+                                                    <h1 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.5;">Medicare Part D Coverage Gap Video</h1>
+                                                    Patients often have questions about Medicare Part D drug coverage and costs. To help them better understand possible changes in their financial responsibility, we created a 90 second animated video.
+                                                </div>
+                                            </div>
+                                        </table>
+
                                     <!-- HAPPY ANNIVERSARY! -->
-                                    <table width="100%" style="border-collapse: collapse; background-color: #fff; padding-top: 50px;" cellspacing="0" cellpadding="0" border="0">
+                                    <table width="100%" style="border-collapse: collapse; background-color: #fff; padding-top: 50px; padding-bottom: 10px;" cellspacing="0" cellpadding="0" border="0">
                                         <tr>
-                                            <td style="border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0" valign="top">
-                                                <img style="display: block;" width="99%" src="images/Banners/0125_The%20Script%20HTML%20Newsletter_anniversary.png" alt="Happy Anniversary!">
+                                            <td style="border-collapse: collapse; padding-bottom: 10px;" cellspacing="0" cellpadding="0" border="0" valign="top">
+                                                <img style="display: block;" width="99%" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/Banners/0125_The%20Script%20HTML%20Newsletter_anniversary.png" alt="Happy Anniversary!">
                                             </td>
                                         </tr>
                                     </table>
                                     <table class="column-1-2" width="300" height="100px" align="left" style="border-collapse: collapse; background-color: #fff; color: #555; font-size: 14px; line-height: 1.6;" cellspacing="0" cellpadding="0" border="0">
                                         <tbody>
                                             <tr>
-                                                <td style="padding-top: 10px; padding-left: 30px; padding-right: 10px;" valign="top">
+                                                <td style="padding-top: 0px; padding-left: 30px; padding-right: 10px;" valign="top">
                                                     <span style="color: #E57200!important; line-height: 1.6; font-size: 13pt;"><em style="color: #E57200; font-weight: 800; font-style: normal;">NORMA HENSON,</em> 14 YEARS</span><br> <b>Samantha Blum</b>, 7 years<br><b>Kristen Brown</b>, 7 years<br><b>Shirley Bruce</b>, 7 years<br><b>Amy Hawkins</b>, 7 years<br><b>Joshua Sharpton</b>, 5 years<br><b>Flavia Baltodano</b>, 4 years<br><b>Penny Bevelacqua</b>, 4 years<br><b>Yolanda Clay</b>, 3 years<br><b>Robbie Daniels</b>, 3 years<br><b>Lori Hannington</b>, 3 years<br><b>Abbas Al-Humaidi</b>, 2 years
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <div style="padding-top:10px; padding-right: 30px; padding-bottom: 50px; padding-left: 30px; background-color: #fff; color: #555; font-size: 14px; line-height: 1.6;">
-                                        <div style="padding-bottom: 50px;">
+                                    <div class="" style="padding-top:0px; padding-right: 30px; padding-bottom: 60px; padding-left: 30px; background-color: #fff; color: #555; font-size: 14px; line-height: 1.6;">
+                                        <div>
                                             <b>Lena Riley</b>, 2 years<br><b>Tracey Barclay</b>, 1 year <br><b>Tommy Dunn</b>, 1 year<br><b>Preston Fulghum</b>, 1 year <br><b>Joshua Harrison</b>, 1 year<br><b>Adreanne Hebb</b>, 1 year<br><b>Mckenzie Joss</b>, 1 year<br><b>Courtney Kimmelmann</b>, 1 year<br><b>Amanda Lussier</b>, 1 year<br><b>Michelle Reyna</b>, 1 year<br><b>Philipa White</b>, 1 year
                                         </div>
                                     </div>
 
                                     <!-- Footer -->
-                                    <table class="column-1-2" width="100%" align="left" style="border-collapse: collapse; background-color: #0085AD; border-top: 10px solid #05C3DE; color: #fff; font-size: 13px;" cellspacing="0" cellpadding="0" border="0" valign="top">
+                                    <table class="column-1-2" width="100%" align="left" style="border-collapse: collapse; background-color: #0085AD; border-top: 10px solid #05C3DE; color: #fff; font-size: 13px; padding-top: 30px;" cellspacing="0" cellpadding="0" border="0" valign="top">
                                         <tbody>
                                             <tr>
                                                 <td style="padding-top: 30px; padding-bottom:30px; padding-right: 25px; padding-left: 30px; text-align: center; line-height: 2;" valign="top">
                                                     <b>Newsletter submissions:</b><br> Please send in your stories, photos and inquiries regarding this newsletter to<br><a href="mailto:InternalNewsletterRx@fmc-na.com" style="color: #fff;">InternalNewsletterRx@fmc-na.com</a><br><br>
-                                                    <a href="#" style="color: #fff">FreseniusRx</a> | <a href="#" style="color: #fff">FMC4ME</a> | <a href="#" style="color: #fff">Vimeo</a> | <a href="#" style="color: #fff">Sales App</a><br><br> © 2018, FreseniusRx, All Rights Reserved.
+                                                    <a href="https://freseniusrx.com/" style="color: #fff">FreseniusRx</a> | <a href="https://fmc4me.fmcna.com/intranet/index.htm" style="color: #fff">FMC4ME</a> | <a href="#" style="color: #fff">Vimeo</a> | <a href="#" style="color: #fff">Sales App</a><br><br> © 2018, FreseniusRx, All Rights Reserved.
                                                 </td>
                                             </tr>
                                         </tbody>
