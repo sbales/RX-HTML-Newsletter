@@ -1,11 +1,19 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!--[if gte mso 7]><xml>
+<!--[if gte mso 7]><xml>
   <o:OfficeDocumentSettings>
   <o:AllowPNG/>
   <o:PixelsPerInch>96</o:PixelsPerInch>
   </o:OfficeDocumentSettings>
 </xml><![endif]-->
+
+<!--[if mso]>
+<style type="text/css">
+    body, table, td {font-family: 'Verdana', sans-serif !important;}
+    h1 {font-family: 'Source Sans Pro', 'Verdana', sans-serif !important;}
+    h2 {font-family: 'Verdana', sans-serif !important;}
+</style>
+<![endif]-->
 
 <head>
 
@@ -47,6 +55,10 @@
                 width: 380px!important;
                 padding: 0;
             }
+            .deviceWidthTitleBar {
+                width: 360px!important;
+                padding: 5px 10px;
+            }
             .center {
                 text-align: center!important;
             }
@@ -75,8 +87,11 @@
                 padding: 0;
             }
             .deviceWidthLess {
-                width: 90%!important;
+                width: 260px!important;
                 padding: 0;
+            }
+            .deviceWidthTitleBar {
+                width: 240px!important;
             }
             .center {
                 text-align: center!important;
@@ -88,6 +103,7 @@
                 height: 5px!important;
             }
         }
+
     </style>
 </head>
 
@@ -96,7 +112,7 @@
     <!-- Wrapper -->
     <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
         <tr>
-            <td width="100%" valign="top" bgcolor="#776E64" style="padding-top:20px">
+            <td width="100%" valign="top" bgcolor="#776E64" style="background-color:#776E64; padding-top:20px;">
 
                 <!-- View In Browser -->
                 <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" style="margin:0 auto;">
@@ -108,29 +124,29 @@
                 <!-- End View In Browser -->
 
                 <!-- Header -->
-                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto;">
+                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="background-color:#fff; margin:0 auto;">
                     <tr>
-                        <td valign="top" style="padding:0" bgcolor="#ffffff">
-                            <img alt="The Script Header Image" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The%20Script%20HTML%20Newsletter_hero.png" style="border-image: none; width: 100%; height: auto; max-width: 600px; display: block;" />
+                        <td valign="top" style="padding:0; background-color:#fff;">
+                            <img alt="The Script Header Image" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The%20Script%20HTML%20Newsletter_hero.png" style="border-image: none; width: 100%; height: auto; max-width: 580px; display: block;" />
                         </td>
                     </tr>
                 </table>
                 <!-- End Header -->
 
                 <!-- Email Introduction -->
-                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" style="margin:0 auto;" bgcolor="#fff">
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" style="margin:0 auto; background-color:#fff;">
                     <tr>
                         <td>
-                            <table align="right" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
+                            <table align="right" width="25%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
                                 <tr>
-                                    <td valign="top" align="right" class="center no-padding" style="padding:0px 30px;" bgcolor="#fff">
+                                    <td valign="top" align="right" class="center no-padding" style="padding:0px 30px; background-color:#fff;" bgcolor="#fff">
                                         <img width="140px" class="center large-image" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The-Script-HTML-Newsletter_blue-banner_hi-res.png" alt="Record High Penetration 39.5%">
                                     </td>
                                 </tr>
                             </table>
-                            <table align="left" width="65%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
+                            <table align="left" width="60%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
                                 <tr>
-                                    <td valign="middle" class="intro-text" style="padding: 30px 30px 10px 30px;" bgcolor="#fff">
+                                    <td valign="middle" class="intro-text" style="background-color:#fff; padding: 30px 30px 10px 30px;" bgcolor="#fff">
                                         FKC Director of Operations, <em style="color:#0085AD; font-weight: 800; text-decoration: none; font-style: normal;">Nichole Haynes</em>, wrote an article discussing the pharmacy and clinic collaboration and FreseniusRx’s commitment to living our core values. Coming soon!
                                     </td>
                                 </tr>
@@ -141,22 +157,28 @@
                 <!-- Email Introduction -->
 
                 <!-- spacer -->
-                <div class="deviceWidth spacer" style="height:30px; width: 580px; margin:0 auto; background-color: #fff;">&nbsp;</div>
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth spacer" bgcolor="#fff" style="margin:0 auto; height:30px; width: 580px; margin:0 auto; background-color: #fff;">
+                    <tr style="background-color: #fff;">
+                        <td style="background-color: #fff;">&nbsp;</td>
+                    </tr>
+                </table>
                 <!-- spacer -->
 
                 <!-- Company News -->
                 <!--TITLE-->
-                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto;">
+                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
                     <tr>
-                        <td valign="top" bgcolor="#ffffff">
-                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;" bgcolor="#fff">
-                                <tr style="padding: 0px; margin: 0px;" bgcolor="#fff">
-                                    <td bgcolor="#afa9a0" style="padding: 0px; margin: 0px;" bgcolor="#fff">
-                                        <h1 style="font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; padding: 5px 10px; margin: 0px;">Company News</h1>
+                        <td valign="top" bgcolor="#ffffff" style="background-color:#fff;">
+                            
+                            
+                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto; background-color:#fff; width: 520px;" bgcolor="#fff">
+                                <tr class="deviceWidthLess" style="padding: 0px; margin: 0px; background-color:#afa9a0; width: 520px;">
+                                    <td class="deviceWidthTitleBar" align="left" bgcolor="#afa9a0" style="padding: 5px 10px; margin: 0px; background-color:#afa9a0; width: 500px; display:block;">
+                                        <h1 style="text-align: left; font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; margin: 0px;">Company News</h1>
                                     </td>
                                 </tr>
-                                <tr bgcolor="#fff">
-                                    <td bgcolor="#fff">
+                                <tr class="deviceWidthLess" bgcolor="#fff" style="background-color:#fff; width: 520px;">
+                                    <td class="deviceWidthLess" bgcolor="#fff" style="background-color:#fff; width: 520px;">
                                         <img align="right" style="display: block;" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/Banners/0125_The-Script-HTML-Newsletter_grey-tail.jpg" alt="grey banner tail">
                                     </td>
                                 </tr>
@@ -166,20 +188,20 @@
                     </tr>
                 </table>
                 <!--Content-->
-                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td style="padding: 10px 0" bgcolor="#fff">
-                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td valign="top" align="center" class="center no-padding" style="padding-left: 30px;" bgcolor="#fff">
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
+                    <tr bgcolor="#fff" style="background-color:#fff;">
+                        <td style="padding: 10px 0; background-color:#fff;" bgcolor="#fff">
+                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr bgcolor="#fff" style="background-color:#fff;">
+                                    <td valign="top" align="center" class="center no-padding" style="padding-left: 30px; background-color:#fff;" bgcolor="#fff">
                                         <a href="https://vimeo.com/245069530"><img alt="company video" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The%20Script%20HTML%20Newsletter_company%20news%20video.png"></a>
                                     </td>
                                 </tr>
                             </table>
-                            <table align="right" width="60%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td class="standard-padding" style="vertical-align: top; padding: 0px 30px 0px 0px;" bgcolor="#fff">
-                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.5;">Medicare Part D Coverage Gap Video</h2>
+                            <table align="right" width="60%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr bgcolor="#fff" style="background-color:#fff;">
+                                    <td class="standard-padding" style="vertical-align: top; padding: 0px 30px 0px 0px; background-color:#fff;" bgcolor="#fff">
+                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.25;">Medicare Part D Coverage Gap Video</h2>
                                         <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0">
                                             Patients often have questions about Medicare Part D drug coverage and costs. To help them better understand possible changes in their financial responsibility, we created a 90 second animated video.
                                         </p>
@@ -192,22 +214,26 @@
                 <!-- End Company News -->
 
                 <!-- spacer -->
-                <div class="deviceWidth spacer" style="height:30px; width: 580px; margin:0 auto; background-color: #fff;">&nbsp;</div>
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth spacer" bgcolor="#fff" style="margin:0 auto; height:30px; width: 580px; margin:0 auto; background-color: #fff;">
+                    <tr style="background-color: #fff;">
+                        <td style="background-color: #fff;">&nbsp;</td>
+                    </tr>
+                </table>
                 <!-- spacer -->
 
                 <!-- Shout Outs -->
                 <!--TITLE-->
-                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td valign="top" bgcolor="#ffffff">
-                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;" bgcolor="#fff">
-                                <tr style="padding: 0px; margin: 0px;" bgcolor="#fff">
-                                    <td bgcolor="#afa9a0" style="padding: 0px; margin: 0px;">
-                                        <h2 style="font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; padding: 5px 10px; margin: 0px;">Shout Outs</h2>
+                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
+                    <tr>
+                        <td valign="top">
+                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto; background-color:#fff;">
+                                <tr class="deviceWidthLess" style="padding: 0px; margin: 0px; background-color:#afa9a0; width: 520px;">
+                                    <td class="deviceWidthTitleBar" align="left" bgcolor="#afa9a0" style="padding: 5px 10px; margin: 0px; background-color:#afa9a0; width: 500px; display:block;">
+                                        <h1 style="font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; padding: 0px; margin: 0px;">Shout Outs</h1>
                                     </td>
                                 </tr>
-                                <tr bgcolor="#fff">
-                                    <td bgcolor="#fff">
+                                <tr style="background-color:#fff;">
+                                    <td style="background-color:#fff;">
                                         <img align="right" style="display: block;" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/Banners/0125_The-Script-HTML-Newsletter_grey-tail.jpg" alt="grey banner tail">
                                     </td>
                                 </tr>
@@ -216,20 +242,20 @@
                         </td>
                     </tr>
                 </table>
-                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td style="padding:10px 0" bgcolor="#fff">
-                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td valign="top" align="center" class="center no-padding" style="padding-left: 30px;" bgcolor="#fff">
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
+                    <tr style="background-color:#fff;">
+                        <td style="padding:10px 0; background-color:#fff;" bgcolor="#fff">
+                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr style="background-color:#fff;">
+                                    <td valign="top" align="center" class="center no-padding" style="padding-left: 30px; background-color:#fff;" bgcolor="#fff">
                                         <img alt="company video" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The%20Script%20HTML%20Newsletter_award.png">
                                     </td>
                                 </tr>
                             </table>
-                            <table align="right" width="60%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
+                            <table align="right" width="60%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
                                 <tr>
-                                    <td style="vertical-align: top; padding-right:30px;" class="standard-padding" bgcolor="#fff">
-                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.5;">2017 President’s Award Winners</h2>
+                                    <td style="vertical-align: top; padding-right:30px; background-color:#fff;" class="standard-padding" bgcolor="#fff">
+                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.25;">2017 President’s Award Winners</h2>
                                         <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0">
                                             <span style="color:#0085AD;">Ashley Morgan</span>, Lead Prescription Specialist<br><span style="color:#0085AD;"> Chanda Reese</span>, Account Manager<br><span style="color:#0085AD;"> Idelkis Torres Perez</span>, PSC Team Supervisor<br><span style="color:#0085AD;"> Jessica Summers</span>, Sr. Business Analyst<br>
                                             <p> 70 nominations were submitted for 41 teammates, which is an amazing accomplishment! Thank you to everyone who nominated your teammates! <br><a style="color: #0085AD;" href="https://vimeo.com/245069530">Click here to view the video.</a></p>
@@ -239,20 +265,20 @@
                         </td>
                     </tr>
                 </table>
-                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td style="padding:10px 0" bgcolor="#fff">
-                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td valign="top" align="center" class="center no-padding" style="padding-left: 30px;" bgcolor="#fff">
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
+                    <tr style="background-color:#fff;">
+                        <td style="padding:10px 0; background-color:#fff;" bgcolor="#fff">
+                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr style="background-color:#fff;">
+                                    <td valign="top" align="center" class="center no-padding" style="padding-left: 30px; background-color:#fff;" bgcolor="#fff">
                                         <img alt="Graduate" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The%20Script%20HTML%20Newsletter_graduate.png">
                                     </td>
                                 </tr>
                             </table>
-                            <table align="right" width="60%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td style="vertical-align: top; padding-right: 30px;" class="standard-padding" bgcolor="#fff">
-                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.5;">Way To Go!</h2>
+                            <table align="right" width="60%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr style="background-color:#fff;">
+                                    <td style="vertical-align: top; padding-right: 30px; background-color:#fff;" class="standard-padding" bgcolor="#fff">
+                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.25;">Way To Go!</h2>
                                         <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0">
                                             <span style="color:#0085AD;">Maria Nappo</span>, Pharmacy Technician, graduated last month in Health Service Administration with a subplan in Human Services. Congratulations!</p>
                                     </td>
@@ -264,22 +290,26 @@
                 <!-- End Shout Outs -->
 
                 <!-- spacer -->
-                <div class="deviceWidth spacer" style="height:30px; width: 580px; margin:0 auto; background-color: #fff;">&nbsp;</div>
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth spacer" bgcolor="#fff" style="margin:0 auto; height:30px; width: 580px; margin:0 auto; background-color: #fff;">
+                    <tr style="background-color: #fff;">
+                        <td style="background-color: #fff;">&nbsp;</td>
+                    </tr>
+                </table>
                 <!-- spacer -->
 
                 <!-- Tech Tips -->
                 <!--TITLE-->
-                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td valign="top" bgcolor="#ffffff">
-                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;" bgcolor="#fff">
-                                <tr style="padding: 0px; margin: 0px;" bgcolor="#fff">
-                                    <td bgcolor="#afa9a0" style="padding: 0px; margin: 0px;">
-                                        <h2 style="font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; padding: 5px 10px; margin: 0px;">Tech Tips</h2>
+                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
+                    <tr style="background-color:#fff;">
+                        <td valign="top" bgcolor="#ffffff" style="background-color:#fff;">
+                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto; background-color:#fff;" bgcolor="#fff">
+                                <tr class="deviceWidthLess" style="padding: 0px; margin: 0px; background-color:#afa9a0; width: 520px;">
+                                    <td class="deviceWidthTitleBar" align="left" bgcolor="#afa9a0" style="padding: 5px 10px; margin: 0px; background-color:#afa9a0; width: 500px; display:block;">
+                                        <h1 style="font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; padding: 0px; margin: 0px;">Tech Tips</h1>
                                     </td>
                                 </tr>
-                                <tr bgcolor="#fff">
-                                    <td bgcolor="#fff">
+                                <tr style="background-color:#fff;">
+                                    <td style="background-color:#fff;">
                                         <img align="right" style="display: block;" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/Banners/0125_The-Script-HTML-Newsletter_grey-tail.jpg" alt="grey banner tail">
                                     </td>
                                 </tr>
@@ -288,25 +318,25 @@
                         </td>
                     </tr>
                 </table>
-                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td style="padding:10px 0" bgcolor="#fff">
-                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td valign="top" align="center" class="center no-padding" style="padding-left:30px;" bgcolor="#fff">
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
+                    <tr style="background-color:#fff;">
+                        <td style="padding:10px 0; background-color:#fff;" bgcolor="#fff">
+                            <table align="left" width="30%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr style="background-color:#fff;">
+                                    <td valign="top" align="center" class="center no-padding" style="padding-left:30px; background-color:#fff;" bgcolor="#fff">
                                         <img alt="Sample email signature" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/0125_The%20Script%20HTML%20Newsletter_signature.png">
                                     </td>
                                 </tr>
                             </table>
-                            <table align="right" width="61%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td style="vertical-align: top; padding-right:30px;" class="standard-padding" bgcolor="#fff">
-                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.5;">Email Signatures</h2>
+                            <table align="right" width="61%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr style="background-color:#fff;">
+                                    <td style="vertical-align: top; padding-right:30px; background-color:#fff;" class="standard-padding" bgcolor="#fff">
+                                        <h2 style="color: #E57200;font-size: 22px;font-weight: 800;padding: 0px 0px 10px 0px;margin: 0px;line-height: 1.25;">Email Signatures</h2>
                                         <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0">
                                             Think of your email signature as a digital business card. You want it to look professional and show our corporate culture. If you haven’t updated your email signature lately or you aren’t sure if it meets brand standards, you can edit it by clicking “File” in <span style="color:#0085AD;">Outlook > Options > Mail > Signatures</span>. Make sure your default signature is selected for both new messages and replies/forwards. Click “OK”.</p>
                                         <p><span style="color:#0085AD;">Michelle Dias</span>, VP, Account Management & Marketing
                                         </p>
-                                        <h3 style="color: #E57200;font-size: 16px; font-weight: 800;padding: 10px 0px 0px 0px;margin: 0px;line-height: 1.5;">Also, please don’t forget to restart your computers at the end of every shift.</h3>
+                                        <h3 style="color: #E57200;font-size: 16px; font-weight: 800;padding: 10px 0px 0px 0px;margin: 0px;line-height: 1.25;">Also, please don’t forget to restart your computers at the end of every shift.</h3>
                                     </td>
                                 </tr>
                             </table>
@@ -316,22 +346,26 @@
                 <!-- End Tech Tips -->
 
                 <!-- spacer -->
-                <div class="deviceWidth spacer" style="height:30px; width: 580px; margin:0 auto; background-color: #fff;">&nbsp;</div>
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth spacer" bgcolor="#fff" style="margin:0 auto; height:30px; width: 580px; margin:0 auto; background-color: #fff;">
+                    <tr style="background-color: #fff;">
+                        <td style="background-color: #fff;">&nbsp;</td>
+                    </tr>
+                </table>
                 <!-- spacer -->
 
                 <!-- Happy Anniversary -->
                 <!--TITLE-->
-                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td valign="top" bgcolor="#ffffff">
-                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;" bgcolor="#fff">
-                                <tr style="padding: 0px; margin: 0px;" bgcolor="#fff">
-                                    <td bgcolor="#e57200" style="padding: 0px; margin: 0px;">
-                                        <h2 style="font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; padding: 5px 10px; margin: 0px;">Happy Anniversary</h2>
+                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" style="margin:0 auto;background-color:#fff;">
+                    <tr style="background-color:#fff;">
+                        <td valign="top" style="background-color:#fff;">
+                            <table width="520px" class="deviceWidthLess" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto; background-color:#fff;" bgcolor="#fff">
+                                <tr class="deviceWidthLess" style="padding: 0px; margin: 0px; background-color:#e57200; width: 520px;">
+                                    <td class="deviceWidthTitleBar" align="left" bgcolor="#e57200" style="padding: 5px 10px; margin: 0px; background-color:#e57200; width: 500px; display:block;">
+                                        <h1 style="font-family: 'Source Sans Pro', 'Verdana', sans-serif; color: #fff; font-size: 12pt; text-transform: uppercase; padding: 0px; margin: 0px;">Happy Anniversary</h1>
                                     </td>
                                 </tr>
-                                <tr bgcolor="#fff">
-                                    <td bgcolor="#fff">
+                                <tr style="background-color:#fff;">
+                                    <td style="background-color:#fff;">
                                         <img align="right" style="display: block;" src="https://raw.githubusercontent.com/sbales/RX-HTML-Newsletter/master/images/Banners/0125_The-Script-HTML-Newsletter_orange-tail.jpg" alt="orange banner tail">
                                     </td>
                                 </tr>
@@ -340,23 +374,23 @@
                         </td>
                     </tr>
                 </table>
-                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto;">
-                    <tr bgcolor="#fff">
-                        <td style="padding: 10px 0px;" bgcolor="#fff">
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth" bgcolor="#fff" style="margin:0 auto; background-color:#fff;">
+                    <tr style="background-color:#fff;">
+                        <td style="padding: 10px 0px; background-color:#fff;" bgcolor="#fff">
                             <p style="padding: 0px; margin: 0px; color: #E57200!important; line-height: 1.6; font-size: 11pt;  text-align: left; padding: 0px 30px;"><em style="color: #E57200; font-weight: 800; font-style: normal;">NORMA HENSON,</em> 14 YEARS</p>
-                            <table align="left" width="49%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td valign="top" class="center" bgcolor="#fff">
-                                        <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0;color: #555; font-size: 13px; line-height: 1.6; margin: 0px; text-align: left; padding: 0px 0px 0px 30px;" class="standard-padding">
+                            <table align="left" width="49%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr style="background-color:#fff;">
+                                    <td valign="top" class="center" style="background-color:#fff;">
+                                        <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0;color: #555; font-size: 13px; line-height: 1.6; margin: 0px; text-align: left; padding-left: 30px;" class="standard-padding">
                                             <b>Samantha Blum</b>, 7 years<br><b>Kristen Brown</b>, 7 years<br><b>Shirley Bruce</b>, 7 years<br><b>Amy Hawkins</b>, 7 years<br><b>Joshua Sharpton</b>, 5 years<br><b>Flavia Baltodano</b>, 4 years<br><b>Penny Bevelacqua</b>, 4 years<br><b>Yolanda Clay</b>, 3 years<br><b>Robbie Daniels</b>, 3 years<br><b>Lori Hannington</b>, 3 years<br><b>Abbas Al-Humaidi</b>, 2 years
                                         </p>
                                     </td>
                                 </tr>
                             </table>
-                            <table align="right" width="49%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff">
-                                <tr bgcolor="#fff">
-                                    <td valign="top" class="center" bgcolor="#fff">
-                                        <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0;color: #555; font-size: 13px; line-height: 1.6; text-align: left; padding: 0px 30px 0px 0px;" class="standard-padding">
+                            <table align="right" width="49%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth" bgcolor="#fff" style="background-color:#fff;">
+                                <tr style="background-color:#fff;">
+                                    <td valign="top" class="center" style="background-color:#fff;">
+                                        <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0;color: #555; font-size: 13px; line-height: 1.6; text-align: left; padding-right: 30px;" class="standard-padding">
                                             <b>Lena Riley</b>, 2 years<br><b>Tracey Barclay</b>, 1 year <br><b>Tommy Dunn</b>, 1 year<br><b>Preston Fulghum</b>, 1 year <br><b>Joshua Harrison</b>, 1 year<br><b>Adreanne Hebb</b>, 1 year<br><b>Mckenzie Joss</b>, 1 year<br><b>Courtney Kimmelmann</b>, 1 year<br><b>Amanda Lussier</b>, 1 year<br><b>Michelle Reyna</b>, 1 year<br><b>Philipa White</b>, 1 year
                                         </p>
                                     </td>
@@ -368,13 +402,17 @@
                 <!-- End Happy Anniversary -->
 
                 <!-- spacer -->
-                <div class="deviceWidth spacer" style="height:30px; width: 580px; margin:0 auto; background-color: #fff;">&nbsp;</div>
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth spacer" bgcolor="#fff" style="margin:0 auto; height:30px; width: 580px; margin:0 auto; background-color: #fff;">
+                    <tr style="background-color: #fff;">
+                        <td style="background-color: #fff;">&nbsp;</td>
+                    </tr>
+                </table>
                 <!-- spacer -->
 
                 <!-- Footer -->
-                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#0085AD" style="margin:0 auto; border-top: 10px solid #05C3DE; color: #fff; font-size: 13px;  text-align: center;">
-                    <tr bgcolor="#0085AD">
-                        <td valign="top" style="padding: 30px;" bgcolor="#0085AD">
+                <table width="580" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#0085AD" style="margin:0 auto; border-top: 10px solid #05C3DE; color: #fff; font-size: 13px;  text-align: center; background-color:#0085AD;">
+                    <tr style="background-color:##0085AD;">
+                        <td valign="top" style="padding: 30px; background-color:##0085AD;" bgcolor="#0085AD">
                             <b>Newsletter submissions:</b><br> Please send in your stories, photos and inquiries regarding this newsletter to<br><a href="mailto:InternalNewsletterRx@fmc-na.com" style="color: #fff;">InternalNewsletterRx@fmc-na.com</a><br><br>
                             <a href="https://freseniusrx.com/" style="color: #fff">FreseniusRx</a> | <a href="https://fmc4me.fmcna.com/intranet/index.htm" style="color: #fff">FMC4ME</a> | <a href="#" style="color: #fff">Vimeo</a> | <a href="#" style="color: #fff">Sales App</a><br><br>© 2018, FreseniusRx, All Rights Reserved.
                         </td>
@@ -383,7 +421,11 @@
                 <!-- End Footer -->
 
                 <!-- spacer -->
-                <div class="deviceWidth" style="height:70px; width: 580px; margin:0 auto;">&nbsp;</div>
+                <table width="580" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth spacer" style="margin:0 auto; height:30px; width: 580px; margin:0 auto; background-color: #776E64;">
+                    <tr style="background-color: #776E64;">
+                        <td style="background-color: #776E64;">&nbsp;</td>
+                    </tr>
+                </table>
                 <!-- spacer -->
 
                 </td>
